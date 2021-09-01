@@ -18,6 +18,8 @@ export const SideBar = ({ className }) => {
                  </a>
              </div> */}
 
+             <img className="btn-menu2" onClick={openMenu} src="https://mystickermania.com/cdn/stickers/67-512x512.png" width="30" alt="" />
+
             <i className="fas fa-bars btn-menu" onClick={openMenu}></i>
            <div className="header">
                 

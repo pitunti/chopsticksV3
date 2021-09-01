@@ -1,22 +1,31 @@
 import logo from './logo.svg';
 
 import './App.scss';
+
+import './Header.scss';
 import { SideBar } from './components/sideBar/SideBar';
+import { RedesSociales } from './components/redersSociales/RedesSociales';
 
 function App() {
   return (
    <>
+  
      <div className="pagina">
         <header>
-           <div className="title">
-              <h1>Chopsticks</h1>
-              <small>Sushi y mas!</small>
-           </div>
-           <SideBar/>
+          <div className="content">
+            <div className="title">
+                <h1>Chopsticks</h1>
+                <h2>Sushi y mas!</h2>
+            </div>
+             <RedesSociales/>
+          </div>
+        <SideBar className="sideBar"/>
         </header>
 
         <main>
-          Hola
+          <div className="content">
+            
+          </div>
         </main>
      </div>
    </>
