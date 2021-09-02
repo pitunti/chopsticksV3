@@ -31,9 +31,29 @@ export const SideBar = ({ className }) => {
 
             <ul className={className}>
               
-                <li>
+                <a href="#home">
+                    <li>
                     <i class="fas fa-home"></i> <span>Home</span>
-                </li>
+                    </li>
+                </a>
+
+                <a href="#appetizers">
+                    <li>
+                    <i class="fas fa-utensils"></i> <span>Appetizers</span>
+                    </li>
+                </a>
+
+                <a href="#soups">
+                    <li>
+                    <i class="fas fa-utensils"></i> <span>Soups</span>
+                    </li>
+                </a>
+
+                <a href="#salads">
+                    <li>
+                    <i class="fas fa-utensils"></i> <span>Salads</span>
+                    </li>
+                </a>
 
 
 

@@ -1,0 +1,29 @@
+.Delivers{
+  
+  position: absolute;
+  bottom: 0;
+  width:calc(100% - 65px);
+   
+   .contenido{
+      max-width: 260px;
+      
+      
+      ul{
+          list-style: none;
+          display: flex;
+   
+          padding: 0;
+          justify-content: center;
+       li{
+         
+   
+          img{
+            width: 50px;
+            height: 60px;
+           
+          }
+       }
+   
+      }
+   }
+}

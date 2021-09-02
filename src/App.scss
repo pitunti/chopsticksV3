@@ -1,10 +1,68 @@
+$font-Pacifico: 'Pacifico', cursive;
 main{
-    background-color: red;
+  
     overflow: hidden;
     .content{
   
       position: relative;
       left: 65px;
-      background-color: blue;
   }
+}
+
+
+.menu{
+
+.categoria{
+  position: relative;
+  width: calc(100% - 65px);
+  left: 65px;
+   border-bottom: 1px solid #000;
+  .contenido{
+    max-width: 700px;
+    margin: 0 auto;
+
+    h1{
+      text-align: center;
+      font-family: $font-Pacifico;
+      text-shadow: 0 2px 5px rgb(219, 207, 207);
+      border-radius: 5px;
+    }
+    .producto{
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+
+      
+
+      .name{
+        flex: 1;
+        text-shadow: 2px 2px 5px black;
+        .detalles{
+          text-shadow: 0 0 0 ;
+          color: rgba(0, 0, 0, 0.404);
+          font-size: .8rem;
+        }
+      }
+      .precio{
+        font-weight: bold;
+        &::first-letter{
+          font-size: 1.2rem;
+        }
+      }
+      
+    }
+  }
+}
+
+}
+
+#appetizers{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Edamame_by_Zesmerelda_in_Chicago.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding: 2rem 0;
+  color: rgb(17, 41, 56);
+  text-shadow: 0 2px 5px rgb(255, 255, 255);
 }
